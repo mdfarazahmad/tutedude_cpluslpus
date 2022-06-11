@@ -36,29 +36,46 @@ int main() {
 
 // Increament and Decreament
 
-int a, b, c, d;
-a = 500, b = 200;
+// int a, b, c, d;
+// a = 500, b = 200;
 
-a++;
-a++;
-b++;
-a--;
-;
-cout << "Value of a is: " << a << endl;
-cout << "Value of b is: " << b << endl;
+// a++;
+// a++;
+// b++;
+// a--;
+// ;
+// cout << "Value of a is: " << a << endl;
+// cout << "Value of b is: " << b << endl;
 
 // Area Of Triangle
 
-int height, base;
-float area;
+// int height, base;
+// float area;
 
-cout << "Enter the height of Triangle: " <<endl;
-cin >> height;
-cout << "Enter the base of Triangle: " <<endl;
-cin >> base;
+// cout << "Enter the height of Triangle: " <<endl;
+// cin >> height;
+// cout << "Enter the base of Triangle: " <<endl;
+// cin >> base;
 
-area = height * base / 2;
-cout << "Area of Triangle is: " << area << endl;
+// area = (float)height *  (float)base / 2;
+// cout << "Area of Triangle is: " << area << endl;
+
+
+// Surface Area and volume of sphere
+
+int radius;
+float s_area, volume, PI;
+
+PI = (float)22/ (float)7;
+
+cout << "Enter the radius of sphere: " << endl;
+cin >> radius;
+
+s_area = 4 * PI * radius * radius;
+volume = (4/3) * PI * radius * radius * radius;
+
+cout << "Suface Area of sphere is: " << s_area << endl;
+cout << "Volume of sphere is: " << volume << endl;
 
 
 
